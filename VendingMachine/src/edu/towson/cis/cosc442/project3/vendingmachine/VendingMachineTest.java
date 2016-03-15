@@ -28,12 +28,39 @@ public class VendingMachineTest {
 		
 	}
 
-	@Test // Test adding item to empty slot
-	public void addItemTest() {
+	@Test // Test adding item to empty slot A
+	public void addItemTestA() {
 		
 		VM.addItem(VMI, "A");
 		
 		assertEquals(VMI, VM.getItem("A"));
+		
+	}
+	
+	@Test // Test adding item to empty slot B
+	public void addItemTestB() {
+		
+		VM.addItem(VMI, "B");
+		
+		assertEquals(VMI, VM.getItem("B"));
+		
+	}
+	
+	@Test // Test adding item to empty slot B
+	public void addItemTestC() {
+		
+		VM.addItem(VMI, "C");
+		
+		assertEquals(VMI, VM.getItem("C"));
+		
+	}
+	
+	@Test // Test adding item to empty slot D
+	public void addItemTestD() {
+		
+		VM.addItem(VMI, "D");
+		
+		assertEquals(VMI, VM.getItem("D"));
 		
 	}
 	
